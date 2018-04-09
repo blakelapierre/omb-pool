@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM node:0.10.48
 
-RUN apt-get update && apt-get install -y git build-essential redis-server libboost1.55-all-dev nodejs-dev nodejs-legacy npm cmake libssl-dev
+RUN apt-get update && apt-get install -y git build-essential cmake pkg-config libboost-all-dev libssl-dev libunbound-dev
 
 RUN git clone https://github.com/blakelapierre/etn-pool
 
