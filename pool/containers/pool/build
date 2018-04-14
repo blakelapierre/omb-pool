@@ -2,4 +2,4 @@
 
 cp ../../config.json config.json
 
-docker build . -t blakelapierre/etnpool-pool --no-cache
+docker build . -t blakelapierre/ombpool-pool --no-cache

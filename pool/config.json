@@ -1,7 +1,7 @@
 {
-    "coin": "electroneum",
-    "symbol": "ETN",
-    "coinUnits": 1000000000000,
+    "coin": "ombre",
+    "symbol": "OMB",
+    "coinUnits": 1000000000,
     "coinDifficultyTarget": 60,
 
     "logging": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "etnk1FzHAgEH2p15Usyzy5UhYocszGggwFaHE6k8Z1ZSBE4kww7azLkT3qgVFgKn5LaVxV9NRssPu5PsWLtJteZw9v6yhMEVRA",
+        "poolAddress": "cashEHazqSxPio3dwzq4f4FBRELBAdyjETukNY9iKfxmirGbCfTHAxmZGUB88mQ1F97TzbPuZbcKtL7iTCkUefic4pP6PZbeUh",
         "blockRefreshInterval": 100,
         "minerTimeout": 9000,
         "ports": [
@@ -75,7 +75,7 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 10,
+        "depth": 0,
         "poolFee": 0,
         "devDonation": 0,
         "coreDevDonation": 0,

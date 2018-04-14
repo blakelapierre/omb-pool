@@ -1,7 +1,7 @@
 #!/bin/sh
 
 docker pull redis:alpine
-docker pull blakelapierre/etnpool-daemon
-docker pull blakelapierre/etnpool-wallet
-docker pull blakelapierre/etnpool-pool
-docker pull blakelapierre/etnpool-www
+docker pull blakelapierre/ombpool-daemon
+docker pull blakelapierre/ombpool-wallet
+docker pull blakelapierre/ombpool-pool
+docker pull blakelapierre/ombpool-www
