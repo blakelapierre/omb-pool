@@ -1,6 +1,6 @@
 #!/bin/sh
 
 rm -rf static-html
-cp -R ../../website static-html/
+cp -R ../../pool/website static-html/
 
 docker build . -t blakelapierre/ombpool-www

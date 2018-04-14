@@ -3,5 +3,4 @@
 (cd base && ./publish)
 (cd daemon && ./publish)
 (cd pool && ./publish)
-(cd wallet && ./publish)
 (cd www && ./publish)

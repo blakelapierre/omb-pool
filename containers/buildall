@@ -4,6 +4,5 @@
 (cd daemon && ./build)
 (cd pool && ./build)
 (cd redis && ./build)
-(cd wallet && ./build)
 (cd www && ./build)
 
